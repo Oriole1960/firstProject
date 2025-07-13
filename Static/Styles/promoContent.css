@@ -1,0 +1,69 @@
+
+.section__promo {
+    display: flex;
+    justify-content: left;
+    align-items:center ;
+    background-image: url('../Images/image3.png');
+    background-size: cover;
+    background-position: 30% 60%;
+    height: 740px;
+    padding-left: 10%;
+    color: #F4F6F5;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.promo__content>div{
+    display: flex;
+}
+
+.promo__content>div>img {
+  width: 100px;
+}
+
+
+.promo__content p{
+line-height: 150%;
+font-weight: 500;
+}
+
+.promo__content p:first-of-type{
+margin-bottom: 30px;
+}
+
+.promo__content p:last-of-type{
+margin-bottom: 70px;
+}
+/* 
+/* Кнопка */
+
+.promo__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  color: #2C2D35;
+  background-color: #EEDB6D;
+  width: 257px;
+  height: 65px;
+  padding: 20px 60px 20px 60px;
+  font-size: 20px;
+   transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.promo__btn:hover {
+  background-color: #FAEB97;
+  color: #2C2D35;
+}
+
+.promo__btn:active {
+  background-color: #D9B949;
+  color: #2C2D35;
+}
+
+h4 {
+font-size: 40px;
+font-weight: 500;
+color: #F4F6F5;
+}
