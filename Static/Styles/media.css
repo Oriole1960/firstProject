@@ -1,0 +1,521 @@
+@media (max-width: 1120px) {
+    .card__conteiner {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+
+    }
+
+    .card {
+        width: 330px;
+        height: 730px;
+    }
+
+    .card__bucket {
+        width: 290px;
+        height: 65px;
+    }
+
+    /* Кард свитч */
+
+    .card__switch {
+        max-width: 680px;
+    }
+
+    .card__switch p {
+        font-size: 30px;
+    }
+
+
+    /* текст карточек */
+
+
+
+
+
+
+
+
+    .headline {
+        margin-top: 30px;
+    }
+
+    .headline__text {
+        width: 320px;
+    }
+
+
+    .headline>img {
+        width: 330px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+    .product {
+
+
+        margin-top: 4.5em;
+        width: 210px;
+        height: 60px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    header {
+        height: 100px;
+        font-size: 18px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        max-width: 680px;
+
+    }
+
+    nav>a {
+        padding-left: 5px;
+    }
+
+    nav>a>img {
+        padding-left: 0px;
+
+    }
+
+    /* Промо секция */
+
+    .section__promo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 502px;
+        color: #F4F6F5;
+        padding-left: 40px;
+        letter-spacing: 1px;
+        background-position: 30% 39%;
+        background-size: 82%;
+    }
+
+
+    .promo__btn {
+        width: 210px;
+        height: 60px;
+
+    }
+
+    .promo__content>div>img {
+        width: 60px;
+        height: 60px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+
+    /* тим */
+
+
+    .team {
+
+        flex-direction: column;
+        align-items: flex-start;
+        height: 800px;
+        margin-top: 20px;
+    }
+
+    .team>img {
+        margin-bottom: 0px;
+    }
+
+
+
+
+    /* футер */
+
+
+    footer {
+        height: 250px;
+    }
+
+    .footer {
+        display: block;
+        padding-inline: 40px;
+        width: 100%;
+    }
+
+    .footer__number {
+        margin-top: 30px;
+        padding-right: 13px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__number>img {
+        color: #2C2D35;
+
+
+    }
+
+    .for-media__1000px {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__nav {
+        margin-top: 0;
+        gap: 80px;
+    }
+
+
+}
+
+
+
+
+/* футер */
+
+
+
+@media (max-width: 700px) {
+    .card__switch__conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card__conteiner {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+
+    }
+
+
+    .card>img {
+        width: 200px;
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    .card {
+        width: 240px;
+        height: 514px;
+    }
+
+    .card__bucket {
+        width: 200px;
+        height: 50px;
+    }
+
+    .card__info {
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card__info>p:first-of-type {
+        font-size: 16px;
+    }
+
+    .card__info p:last-of-type {
+        margin-bottom: 0;
+        font-size: 16px;
+
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card__price-bucket {
+        margin-top: 0;
+    }
+
+    /* Кард свитч */
+
+    .card__switch {
+        display: flex;
+        flex-direction: column;
+        width: 510px;
+        align-items: flex-start;
+
+    }
+
+
+
+
+
+    .card__switch>p {
+        font-size: 24px;
+
+    }
+
+    .card__switch__btn {
+        display: flex;
+        gap: 32px;
+        margin-top: 10px;
+
+    }
+
+    .card__switch__btn a {
+        width: 125px;
+        height: 41px;
+        font-size: 18px;
+    }
+
+
+
+
+
+    .headline {
+        margin-top: 30px;
+    }
+
+    .headline__text {
+        width: 320px;
+    }
+
+    .headline__text>p {
+        font-size: 16px;
+    }
+
+    .headline>img {
+        width: 195px;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .product {
+
+
+        margin-top: 30px;
+        width: 178px;
+        height: 50px;
+
+    }
+
+
+
+
+
+
+
+    header {
+        height: 123px;
+    }
+    .nav__logo {
+        display: flex;
+        align-items: center;
+        height: 61.5px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        max-width: 500px;
+
+    }
+
+    .navigation {
+        display: flex;
+        width: 100%;
+        height: 61.5px;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 0.5px solid #C3D1C6;
+    }
+
+    .navigation a {
+        font-size: 18px;
+
+    }
+
+    /* Промо секция */
+
+    .section__promo {
+        height: 410px;
+        background-size: 128%;
+        background-position: 30% 36%;
+        ;
+
+    }
+
+
+    .promo__btn {
+        width: 190px;
+        height: 50px;
+        font-size: 18px;
+
+    }
+
+    .promo__content>div>img {
+        width: 60px;
+        height: 60px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .promo__content p {
+        line-height: 140%;
+        font-size: 16px;
+    }
+
+    .promo__content p:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .promo__content p:last-of-type {
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+
+    /* тим */
+
+
+    .team {
+
+        flex-direction: column;
+        align-items: flex-start;
+        height: 750px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .team>img {
+        width: 375px;
+        margin-bottom: 0px;
+    }
+
+    .team__info {}
+
+    .team__info>p {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+
+
+    /* футер */
+
+
+    footer {
+        height: 319px;
+    }
+
+    .footer {
+        padding-inline: 0   ;
+        height: 319px;
+        display: block;
+        margin-inline: auto;
+        width: 510px;
+    }
+
+    .footer__number {
+        width: 510px;
+        margin-top: 30px;
+        padding-right: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__number>img {
+        color: #2C2D35;
+    }
+
+
+    .footer__list a {
+        font-size: 16px;
+    }
+
+    .footer__list>ul>li {
+        margin-bottom: 10px;
+    }
+
+    .for-media__700px {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 510px;
+    }
+
+    .footer__nav {
+        margin-top: 0;
+        gap: 80px;
+        width: 100%;
+        border-bottom: 0.5px solid #C3D1C6;
+    }
+
+    .footer__social>ul {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__social li {
+        font-size: 12px;
+    }
+
+     .footer__social {
+        text-align: center;
+        margin-top: 20px;
+     }
+
+    .footer__social__img {
+        display: flex;
+       justify-content: space-between;
+     width: 132px;
+     margin-inline: auto;
+    }
+
+    .footer__social__img>img {
+        
+    margin-right: 0;
+}
+
+}
+
+
+
+
+/* футер */

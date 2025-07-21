@@ -1,7 +1,8 @@
 footer {
+    
     background-color: #E1EDE6;
     color: #86928B;
-    height: 150px;
+    height: 168px;
     overflow: hidden;
     text-decoration: none;
 }
@@ -18,13 +19,13 @@ footer {
     justify-content: space-between;
     margin-top: 1em;
     gap: 3em;
-}
+} 
 
 /* шрифты и стили */
 
 .footer__list>ul>li {
 
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     color: #86928B;
 }
 
@@ -65,13 +66,22 @@ color: #2C2D35;;
 .footer__number>img{
 color: #2C2D35;
 margin-bottom: 20px;
-transform: scale(1.1);
 }
 
 
 
-.footer__social>div>img {
+.footer__social__img>img {
     margin-right: 1.5em;
+}
+
+.for-media__1000px {
+    display: flex;
+    margin-top: 15px;
+}
+
+.for-media__700px {
+    display: flex;
+    margin-top: 15px;
 }
 
 

@@ -1,11 +1,16 @@
+.section__card {
+
+}
+
 .card__switch {
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
-    padding-inline: 5%;
+    max-width: 1110px;
     margin-bottom: 32px;
     font-weight: 500;
     font-size: 40px;
-    padding-inline: 17.5%;
+    
 }
 
 .card__switch__btn a {
@@ -14,8 +19,8 @@
     align-items: center;
     background-color: #D4E8D9;
     border-style: none;
-    width: 143px;
-    height: 46px;
+    width: 126px;
+    height: 43px;
     border-radius: 20px;
     font-size: 20px;
     color: #2C2D35;

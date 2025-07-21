@@ -1,20 +1,35 @@
-
 .section__promo {
-    display: flex;
-    justify-content: left;
-    align-items:center ;
-    background-image: url('../Images/image3.png');
-    background-size: cover;
-    background-position: 30% 60%;
-    height: 740px;
-    padding-left: 10%;
-    color: #F4F6F5;
-    font-size: 26px;
-    letter-spacing: 1px;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 574px;
+  padding-left: 250px;
+  color: #F4F6F5;
+  font-size: 26px;
+  letter-spacing: 1px;
+  background-image: url('../Images/promoImg.png');
+  background-size: 80%;
+  background-position: 30% 26.5%;
 }
 
-.promo__content>div{
-    display: flex;
+/* .section__promo::before {
+
+  content: '';
+  position: absolute;
+  background-image: url('../Images/promoImg.png');
+  background-size: cover;
+  inset: 0;
+  
+  transform: scale;
+  z-index: -1;
+
+} */
+
+
+
+.promo__content>div {
+  display: flex;
 }
 
 .promo__content>div>img {
@@ -22,18 +37,20 @@
 }
 
 
-.promo__content p{
-line-height: 150%;
-font-weight: 500;
+.promo__content p {
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.promo__content p:first-of-type{
-margin-bottom: 30px;
+.promo__content p:first-of-type {
+  margin-bottom: 30px;
 }
 
-.promo__content p:last-of-type{
-margin-bottom: 70px;
+.promo__content p:last-of-type {
+  margin-bottom: 70px;
 }
+
 /* 
 /* Кнопка */
 
@@ -48,7 +65,7 @@ margin-bottom: 70px;
   height: 65px;
   padding: 20px 60px 20px 60px;
   font-size: 20px;
-   transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
   cursor: pointer;
 }
 
@@ -63,7 +80,7 @@ margin-bottom: 70px;
 }
 
 h4 {
-font-size: 40px;
-font-weight: 500;
-color: #F4F6F5;
+  font-size: 40px;
+  font-weight: 500;
+  color: #F4F6F5;
 }
