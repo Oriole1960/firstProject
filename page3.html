@@ -7,15 +7,16 @@
     <title>
         Ink.House
     </title>
-    <link rel="stylesheet" href="Static/Styles/teamContent.css">
-    <link rel="stylesheet" href="Static/Styles/navbar.css">
-    <link rel="stylesheet" href="Static/Styles/cardConteiner.css">
-    <link rel="stylesheet" href="Static/Styles/headline.css">
-    <link rel="stylesheet" href="Static/Styles/cardSwitch.css">
-    <link rel="stylesheet" href="Static/Styles/myReset.css">
-    <link rel="stylesheet" href="Static/Styles/footer.css">
-    <link rel="stylesheet" href="Static/Styles/promoContent.css">
+
+    <link rel="stylesheet" href="Static/Styles/style.css">
     <link rel="stylesheet" href="Static/Styles/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+
 </head>
 
 
@@ -25,34 +26,39 @@
     <header>
 
         <nav>
-            <div class="navlogo">
-
+            <div class="nav__logo">
                 <a href="./index.html"><img src="Static/Images/main-logo.svg" class="img-logo" alt="logo"></a>
             </div>
 
-            <ul class="navigation">
-                <li><a href="#card">Репродукции</a></li>
-                <li><a href="#newCollection">Новинки</a></li>
-                <li><a href="#aboutUs">О нас</a></li>
-                <!-- Правильно ли я вставил ссылку -->
-                <li>
-                    <button>
-                        <img src="Static/Images/basket.svg" alt="basket">
-                        <span id="card__count">0</span>
-                    </button>
-                </li>
-            </ul>
-        </nav>
 
+
+
+
+
+            <div class="nav__menu">
+
+                <button class="burger">
+                    <span class="burgerAnimation1"></span>
+                    <span class="burgerAnimation2"></span>
+                    <span class="burgerAnimation3"></span>
+                </button>
+
+                <ul class="nav__menu__list">
+                    <li><a href="#card">Репродукции</a></li>
+                    <li><a href="#newCollection">Новинки</a></li>
+                    <li><a href="#aboutUs">О нас</a></li>
+                </ul>
+                <a href="#" class="basket"><img src="Static/Images/basket.svg" alt="basket">
+                    <span id="card__count">0</span>
+                </a>
+            </div>
+        </nav>
     </header>
 
     <main>
         <section class="section__headline">
-
             <div class="headline">
-
                 <img src="Static/Images/image1.png" alt="pigeon">
-
                 <div class="headline__text">
                     <h1>Реплики картин<br> от <span>Ink. House</span></h1>
                     <p>Высокое качество отрисовки на плотной бумаге или льняном<br> холсте. Редкие произведения,
@@ -63,40 +69,32 @@
                     </button>
                 </div>
             </div>
-
         </section>
 
         <section class="section__card">
             <div class="card__switch__conteiner">
-
-
                 <div class="card__switch">
-
                     <p>Репродукции</p>
-
-
-
                     <div class="card__switch__btn">
                         <a href="./index.html">Франция</a>
                         <a href="./page2.html">Германия</a></button>
-                        <a href="#">Англия</a>
+                        <a href="./page3.html">Англия</a>
                     </div>
                 </div>
             </div>
 
             <div class="card__conteiner" id="card">
                 <div class="card">
-                    <img src="Static/Images/picture2.jpg" alt="picture">
+                    <img src="Static/Images/picture13.jpg" alt="picture">
                     <div class="card__info">
                         <div class="card__info__picture">
-
-                            <p>Курт Вернер</p>
-                            <h2>Над городом</h2>
-                            <p>Цветная литография (40x60)</p>
+                            <p>Пол Смит</p>
+                            <h2>Дикий зверь</h2>
+                            <p>Акварель, бумага(50x80)</p>
                         </div>
 
                         <div class="card__price-bucket">
-                            <h3>16 000 руб</h3>
+                            <h3>19 500 руб</h3>
                             <button class="card__bucket">В корзину</button>
                         </div>
                     </div>
@@ -104,101 +102,91 @@
 
 
                 <div class="card">
-                    <img src="Static/Images/picture6.jpg" alt="picture">
+                    <img src="Static/Images/picture14.jpg" alt="picture">
                     <div class="card__info">
                         <div class="card__info__picture">
-
-                            <p>Макс Рихтер</p>
-                            <h2>Птенцы</h2>
-                            <p>Холст, масло(50x80)</p>
-                        </div>
-                        <div class="card__price-bucket">
-
-                            <h3>14 500 руб</h3>
-                            <button class="card__bucket">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="Static/Images/picture4.jpg" alt="picture">
-                    <div class="card__info">
-                        <div class="card__info__picture">
-
-                            <p>Мартин Майер</p>
-                            <h2>Среди листьев</h2>
+                            <p>Джон Уайт</p>
+                            <h2>Скалистый берег</h2>
                             <p>Цветная литография(40х60)</p>
                         </div>
-                        <div class="card__price-bucket">
 
-                            <h3>20 000 руб</h3>
+                        <div class="card__price-bucket">
+                            <h3>17 500 руб</h3>
                             <button class="card__bucket">В корзину</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="Static/Images/picture3.jpg" alt="picture">
+                    <img src="Static/Images/picture15.jpg" alt="picture">
                     <div class="card__info">
                         <div class="card__info__picture">
+                            <p>Джим Уотсон</p>
+                            <h2>Река и горы</h2>
+                            <p>Акварель, бумага(50x80)</p>
+                        </div>
 
-                            <p>Герман Беккер</p>
-                            <h2>Яркая Птица</h2>
+                        <div class="card__price-bucket">
+                            <h3>20 500 руб</h3>
+                            <button class="card__bucket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Static/Images/picture16.jpg" alt="picture">
+                    <div class="card__info">
+                        <div class="card__info__picture">
+                            <p>Юджин Зиллион</p>
+                            <h2>Белый попугай</h2>
+                            <p>Цветная литография(40x60)</p>
+                        </div>
+
+                        <div class="card__price-bucket">
+                            <h3>15 500 руб</h3>
+                            <button class="card__bucket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Static/Images/picture17.jpg" alt="picture">
+                    <div class="card__info">
+                        <div class="card__info__picture">
+                            <p>Эрик Гиллман</p>
+                            <h2>Ночная рыба</h2>
+                            <p>Бумага, акрил(50x80)</p>
+                        </div>
+
+                        <div class="card__price-bucket">
+                            <h3>12 500 руб</h3>
+                            <button class="card__bucket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Static/Images/picture18.jpg" alt="picture">
+                    <div class="card__info">
+                        <div class="card__info__picture">
+                            <p>Альфред Барр</p>
+                            <h2>Рыжий кот</h2>
                             <p>Цветная литография(40х60)</p>
                         </div>
+
                         <div class="card__price-bucket">
-
-                            <h3>13 000 руб</h3>
-                            <button class="card__bucket">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="Static/Images/picture5.jpg" alt="picture">
-                    <div class="card__info">
-                        <div class="card__info__picture">
-
-                            <p>Вульф Бауэр</p>
-                            <h2>Дятлы</h2>
-                            <p>Бумага, акрил(50x80)</p>
-                        </div>
-                        <div class="card__price-bucket">
-
-                            <h3>20 000 руб</h3>
-                            <button class="card__bucket">В корзину</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="Static/Images/picture1.jpg" alt="picture">
-                    <div class="card__info">
-                        <div class="card__info__picture">
-
-                            <p>Вальтер Хартман</p>
-                            <h2>Большие воды</h2>
-                            <p>Бумага, акрил(50x80)</p>
-                        </div>
-                        <div class="card__price-bucket">
-
-                            <h3>23 000 руб</h3>
+                            <h3>21 000 руб</h3>
                             <button class="card__bucket">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-
-
-
 
         <section class="section__promo" id="newCollection">
             <div class="promo__content">
                 <div>
                     <img src="Static/Images/Star 2.png" alt="picture">
-
                     <h4>Новая коллекция<br>
                         французских авторов
                     </h4>
@@ -216,10 +204,7 @@
 
         <section class="section__team" id="aboutUs">
             <div class="team">
-
                 <img src="Static/Images/brashes.png" alt="картина">
-
-
                 <div class="team__info">
                     <h5>Наша команда</h5>
                     <p>Значимость этих проблем настолько очевидна, что базовый вектор<br> развития позволяет оценить
@@ -240,8 +225,6 @@
                         <div class="person__3">
                             <img src="Static/Images/person1.jpg" alt="#">
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -249,80 +232,67 @@
     </main>
 
     <footer>
-        <div class="footer">
+        <div class="footer__conteiner">
 
-            <div class="footer__number">
+            <div class="footer__logo">
                 <img src="Static/Images/main-logo.svg" class="img-logo" alt="logo">
-                <div>
+                <div class="footer__number">
                     <p>+7 (999) 543-54-54</p>
                     <p>Мастерская</p>
                 </div>
-
             </div>
 
-            <div class="for-media__1000px">
-
-                <div class="for-media__700px">
-
-                    <div class="footer__nav">
-                        <div class="footer__list">
-                            <h6><a href="#">Репродукции</a></h6>
-                            <ul>
-                                <li><a href="#">Франция</a></li>
-                                <li><a href="#">Германия</a></li>
-                                <li><a href="#">Англия</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="footer__list">
-                            <h6><a href="#">Новинки</a></h6>
-                            <ul>
-                                <li><a href="#">2021</a></li>
-                                <li><a href="#">2020</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="footer__list">
-                            <h6><a href="#">О нас</a></h6>
-                            <ul>
-                                <li><a href="#">Художники</a></li>
-                                <li><a href="#">Менеджеры</a></li>
-                            </ul>
-                        </div>
+            <div class="for-media">
+                <div class="footer__nav">
+                    <div class="footer__list" id="ForOrder1">
+                        <h6><a href="#">Репродукции</a></h6>
+                        <ul>
+                            <li><a href="#">Франция</a></li>
+                            <li><a href="#">Германия</a></li>
+                            <li><a href="#">Англия</a></li>
+                        </ul>
                     </div>
 
-
-
-
-                    <div class="footer__social">
-
-                        <div class="footer__social__img">
-                            <img src="Static/Images/Frame_1.svg" alt="">
-                            <img src="Static/Images/Frame_2.svg" alt="">
-                            <img src="Static/Images/Frame_3.svg" alt="">
-                        </div>
-
+                    <div class="footer__list" id="ForOrder2">
+                        <h6><a href="#">Новинки</a></h6>
                         <ul>
-                            <li>Ink. House ®</li>
-                            <li>All rights reserved</li>
+                            <li><a href="#">2021</a></li>
+                            <li><a href="#">2020</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__number--forMobileMedia">
+                        <p>+7 (999) 543-54-54</p>
+                        <p>Мастерская</p>
+                    </div>
+
+                    <div class="footer__list" id="ForOrder3">
+                        <h6><a href="#">О нас</a></h6>
+                        <ul>
+                            <li><a href="#">Художники</a></li>
+                            <li><a href="#">Менеджеры</a></li>
                         </ul>
                     </div>
                 </div>
+
+                <div class="footer__social">
+
+                    <div class="footer__social__img">
+                        <img src="Static/Images/Frame_1.svg" alt="">
+                        <img src="Static/Images/Frame_2.svg" alt="">
+                        <img src="Static/Images/Frame_3.svg" alt="">
+                    </div>
+
+                    <ul>
+                        <li>Ink. House ®</li>
+                        <li>All rights reserved</li>
+                    </ul>
+                </div>
             </div>
-
-
-
         </div>
-
-
-
     </footer>
 
     <script src="./javaScript.js"></script>
 </body>
-
-
-
-
 
 </html>
